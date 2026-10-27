@@ -1,0 +1,320 @@
+{
+  "_doc": "Worlds are the variable half of every video. The constant half (the spine) is in data/spine.json. A world is a physical place plus a material and a light, never an illustration style. Plates must always read as tactile, photographed or physically-lit 3D renders.",
+  "worlds": [
+    {
+      "id": "clay-atelier", "name": "Clay atelier", "family": "workshop", "material": "terracotta clay", "light": "golden-window", "hue": 20,
+      "palette": {"bg": "#7b3a1c", "ink": "#2b150b", "paper": "#f3e6d3", "accent": "#e9743a", "accent2": "#f2c27b"},
+      "type": {"id": "chunky-soft", "display": "Secular One", "weight": 400, "body": "Heebo", "case": "none", "tracking": "-0.01em"},
+      "captions": "word-pop", "transition": "soft-push", "sound": "warm-pad", "grain": 0.12, "vignette": 0.35,
+      "affinity": ["creative", "design", "art", "animation", "craft", "ai", "motion", "ux", "יצירה", "עיצוב", "אנימציה", "אמנות"],
+      "setting": "a sun-baked plaster studio: arched windows, shelves of sculpted pieces, olive-leaf shadows moving across a terracotta wall",
+      "props": ["clay sculptures on wooden shelves", "sketch pages pinned with tape", "an arched stone corridor", "a worktable with brass lamps", "a phone held in a plaster-dusted hand", "paper sheets with highlighted lines"],
+      "motif": "a small hand-sculpted clay emblem on a floating wooden shelf that returns at the start and the end",
+      "plate_style": "photoreal tactile 3D render, terracotta clay and sun-baked plaster, warm golden window light with soft leaf shadows, shallow depth of field, 50mm lens, rich warm orange and sand tones, subtle film grain"
+    },
+    {
+      "id": "mint-clinic", "name": "Mint clinic", "family": "clinic", "material": "glazed tile", "light": "flat-fluorescent", "hue": 150,
+      "palette": {"bg": "#9fc9ae", "ink": "#1d2a24", "paper": "#f4f1e8", "accent": "#d4452f", "accent2": "#f0b94a"},
+      "type": {"id": "heavy-sans", "display": "Heebo", "weight": 900, "body": "Heebo", "case": "none", "tracking": "-0.02em"},
+      "captions": "box-highlight", "transition": "slide-wipe", "sound": "minimal-clicks", "grain": 0.06, "vignette": 0.2,
+      "affinity": ["problem", "fix", "diagnosis", "mistake", "health", "check", "audit", "bug", "error", "בעיה", "אבחון", "טעות", "בדיקה", "תקלה"],
+      "setting": "a retro mint-tiled clinic: wall-mounted lightbox, chrome fixtures, wooden desk, clipboards and rubber stamps",
+      "props": ["an x-ray on a lightbox with a red circle", "a red rubber stamp on paper forms", "an eye chart with the words as letters", "a cassette recorder on a table", "a clipboard form with a pen", "a chrome sphere on a tiled pedestal", "a wall calendar with a handwritten date"],
+      "motif": "a patient file labelled with the subject, stamped or annotated as the video progresses",
+      "plate_style": "photoreal tactile 3D render, mint green glazed ceramic tile, chrome and warm wood, flat even clinic light with soft reflections, Wes Anderson symmetry, muted pastel palette with one red accent, shallow depth of field"
+    },
+    {
+      "id": "red-thread-study", "name": "Red thread study", "family": "study", "material": "mahogany and brass", "light": "lamp-pool", "hue": 8,
+      "palette": {"bg": "#1a0f0a", "ink": "#0c0705", "paper": "#efe3cf", "accent": "#d92b1f", "accent2": "#e0a04a"},
+      "type": {"id": "heavy-sans", "display": "Heebo", "weight": 900, "body": "Heebo", "case": "none", "tracking": "-0.02em"},
+      "captions": "underline-sweep", "transition": "dip-flash", "sound": "tense-pulse", "grain": 0.16, "vignette": 0.55,
+      "affinity": ["threat", "scale", "agents", "security", "scam", "risk", "network", "data", "future", "סכנה", "הונאה", "אבטחה", "רשת", "סוכנים", "עתיד"],
+      "setting": "a dark mahogany study at night: banker's lamps, old maps, magnifying glasses, a window onto a glittering city",
+      "props": ["a world map with red pins", "a swarm of red dots crawling over a city", "a stack of papers collapsing", "a magnifying glass over a ledger", "a plush animal as a quiet witness", "rows of identical frames each holding a small figure"],
+      "motif": "red dots, pins or thread that spread across the scene as the problem grows",
+      "plate_style": "photoreal cinematic render, dark mahogany and brass, single warm lamp pool and deep shadow, crimson accents, shallow depth of field, anamorphic bokeh, high contrast, subtle film grain"
+    },
+    {
+      "id": "golden-theatre", "name": "Golden theatre", "family": "theatre", "material": "velvet and brass", "light": "candle-warm", "hue": 32,
+      "palette": {"bg": "#2a1608", "ink": "#120a04", "paper": "#f6e7c8", "accent": "#ff4a2b", "accent2": "#f0b84a"},
+      "type": {"id": "elegant-display", "display": "Bellefair", "weight": 400, "body": "Heebo", "case": "none", "tracking": "0em"},
+      "captions": "karaoke-fill", "transition": "iris", "sound": "music-box", "grain": 0.14, "vignette": 0.5,
+      "affinity": ["story", "disaster", "drama", "reveal", "show", "history", "culture", "brand", "סיפור", "קטסטרופה", "דרמה", "תרבות", "מותג"],
+      "setting": "an empty gilded theatre: velvet curtains, brass rails, spotlight cones, footlights glowing along a polished stage",
+      "props": ["a mirror ball made of film frames", "a velvet curtain mid-open", "a spotlight on a single object", "a marquee sign with bulbs", "a stack of ticket stubs", "brass opera glasses"],
+      "motif": "a single spotlight that finds the object of each beat",
+      "plate_style": "photoreal cinematic render, velvet curtains and polished brass, warm candle-gold light with volumetric haze, deep amber and burgundy tones, shallow depth of field, soft bloom"
+    },
+    {
+      "id": "felt-toy-diorama", "name": "Felt toy diorama", "family": "toy-room", "material": "felt and painted wood", "light": "softbox-clean", "hue": 205,
+      "palette": {"bg": "#cfe3f1", "ink": "#16324a", "paper": "#fff8ec", "accent": "#ff7a3d", "accent2": "#ffd166"},
+      "type": {"id": "round-friendly", "display": "Rubik", "weight": 800, "body": "Rubik", "case": "none", "tracking": "-0.01em"},
+      "captions": "word-pop", "transition": "whip-pan", "sound": "bright-arp", "grain": 0.05, "vignette": 0.15,
+      "affinity": ["beginner", "easy", "kids", "learn", "simple", "tutorial", "basics", "מתחילים", "קל", "ללמוד", "פשוט", "מדריך"],
+      "setting": "a tabletop diorama built from felt, painted wood and cardboard, photographed in a bright studio",
+      "props": ["felt figures on a painted wooden stage", "cardboard buildings with real texture", "a toy train on a track", "wooden blocks with letters", "a paper sun on a wire"],
+      "motif": "a small felt character that appears in every scene doing the thing being explained",
+      "plate_style": "photoreal macro photograph of a handmade miniature diorama, wool felt and painted wood and cardboard with visible fibres, clean softbox light, tilt-shift depth of field, saturated pastel palette, never cartoon or illustration"
+    },
+    {
+      "id": "glass-lab", "name": "Glass lab", "family": "laboratory", "material": "glass and chrome", "light": "softbox-clean", "hue": 190,
+      "palette": {"bg": "#dfeff2", "ink": "#0e2b33", "paper": "#ffffff", "accent": "#00a3b5", "accent2": "#ff6b4a"},
+      "type": {"id": "condensed-poster", "display": "Karantina", "weight": 700, "body": "Heebo", "case": "none", "tracking": "0em"},
+      "captions": "typewriter", "transition": "shutter", "sound": "airy-drone", "grain": 0.04, "vignette": 0.12,
+      "affinity": ["science", "research", "experiment", "test", "study", "data", "compare", "מחקר", "ניסוי", "בדיקה", "מדע", "השוואה"],
+      "setting": "a bright laboratory of borosilicate glass, chrome stands and lit specimen trays",
+      "props": ["glass beakers with glowing liquid", "a petri dish under a lamp", "a chrome microscope", "a rack of labelled test tubes", "a glass sphere refracting the room"],
+      "motif": "a liquid that changes colour as the answer becomes clear",
+      "plate_style": "photoreal product-photography render, borosilicate glass and polished chrome, bright clean softbox light with crisp refractions, cool aqua and white with a single coral accent, macro depth of field"
+    },
+    {
+      "id": "paper-cut-garden", "name": "Paper-cut garden", "family": "nature", "material": "layered paper", "light": "overcast-soft", "hue": 110,
+      "palette": {"bg": "#cfe0b8", "ink": "#1d3321", "paper": "#fbf6e6", "accent": "#e8553d", "accent2": "#f7c948"},
+      "type": {"id": "hand-marker", "display": "Amatic SC", "weight": 700, "body": "Heebo", "case": "none", "tracking": "0.02em"},
+      "captions": "bounce", "transition": "paper-turn", "sound": "soft-lofi", "grain": 0.1, "vignette": 0.2,
+      "affinity": ["growth", "habit", "sustainable", "nature", "journey", "slow", "wellness", "צמיחה", "הרגל", "טבע", "מסע", "איזון"],
+      "setting": "a garden built from many layers of cut paper with real fibre texture and soft cast shadows between layers",
+      "props": ["layered paper hills", "paper flowers opening", "a paper bridge", "a hand-torn paper sun", "paper birds on a wire"],
+      "motif": "a paper plant that grows one layer more in each scene",
+      "plate_style": "photoreal macro photograph of layered cut-paper craft, visible paper fibre and soft cast shadows between layers, overcast softbox light, fresh green and cream with one warm coral accent, shallow depth of field"
+    },
+    {
+      "id": "neon-arcade", "name": "Neon arcade", "family": "arcade", "material": "neon tube", "light": "neon-rim", "hue": 305,
+      "palette": {"bg": "#0d0720", "ink": "#06030f", "paper": "#f2eaff", "accent": "#ff2bd6", "accent2": "#2bf0ff"},
+      "type": {"id": "heavy-sans", "display": "Heebo", "weight": 900, "body": "Heebo", "case": "none", "tracking": "-0.02em"},
+      "captions": "karaoke-fill", "transition": "glitch-cut", "sound": "bright-arp", "grain": 0.1, "vignette": 0.45,
+      "affinity": ["game", "gaming", "level", "challenge", "fast", "viral", "trend", "משחק", "אתגר", "ויראלי", "טרנד", "שלב"],
+      "setting": "a rainy-night arcade: glowing cabinets, neon tubes on black walls, reflections on wet linoleum",
+      "props": ["an arcade cabinet screen", "neon tube lettering on a wall", "a joystick and buttons in macro", "a token tray", "a high-score board"],
+      "motif": "a neon sign that rewrites itself with the beat's key word",
+      "plate_style": "photoreal cinematic render, neon tubes in magenta and cyan on a black wall, wet reflective floor, strong rim light and haze, shallow depth of field, anamorphic flares"
+    },
+    {
+      "id": "concrete-gallery", "name": "Concrete gallery", "family": "architecture", "material": "raw concrete", "light": "overcast-soft", "hue": 215,
+      "palette": {"bg": "#9aa0a6", "ink": "#16191c", "paper": "#eceae4", "accent": "#ff5a1f", "accent2": "#1f6bff"},
+      "type": {"id": "condensed-poster", "display": "Karantina", "weight": 700, "body": "Heebo", "case": "none", "tracking": "0em"},
+      "captions": "box-highlight", "transition": "slide-wipe", "sound": "deep-sub", "grain": 0.09, "vignette": 0.25,
+      "affinity": ["strategy", "system", "structure", "build", "business", "model", "framework", "אסטרטגיה", "מערכת", "מבנה", "עסק", "מודל"],
+      "setting": "a brutalist concrete gallery: skylights, bare walls, single objects on plinths",
+      "props": ["a plinth with a single object", "a concrete stair in hard light", "a framed blueprint", "a steel scaffold", "a model building on a table"],
+      "motif": "an orange object that sits alone on the grey plinths and changes meaning each time",
+      "plate_style": "photoreal architectural photograph, raw board-formed concrete, overcast skylight, monochrome grey with a single saturated orange object, minimal composition, medium format look"
+    },
+    {
+      "id": "morning-kitchen", "name": "Morning kitchen", "family": "kitchen", "material": "oak and ceramic", "light": "dawn-blue", "hue": 45,
+      "palette": {"bg": "#e9d8bd", "ink": "#2b2118", "paper": "#fff9ef", "accent": "#d9532b", "accent2": "#6a8f6f"},
+      "type": {"id": "round-friendly", "display": "Varela Round", "weight": 400, "body": "Heebo", "case": "none", "tracking": "0em"},
+      "captions": "underline-sweep", "transition": "blur-dissolve", "sound": "soft-lofi", "grain": 0.08, "vignette": 0.25,
+      "affinity": ["routine", "daily", "family", "food", "time", "morning", "simple", "שגרה", "יומי", "משפחה", "אוכל", "זמן", "בוקר"],
+      "setting": "an early-morning kitchen: oak counter, ceramic bowls, cool blue light from the window mixing with a warm lamp",
+      "props": ["a coffee pot steaming", "a recipe card pinned to a board", "bowls of ingredients in rows", "a phone leaning on a jar", "a hand-written shopping list"],
+      "motif": "a mug that is full at the start and empty at the end",
+      "plate_style": "photoreal lifestyle photograph, oak counter and glazed ceramics, cool dawn window light blended with warm lamp, soft steam, shallow depth of field, natural muted palette with one terracotta accent"
+    },
+    {
+      "id": "observatory-night", "name": "Observatory night", "family": "cosmos", "material": "brass and dark glass", "light": "lamp-pool", "hue": 235,
+      "palette": {"bg": "#0b1030", "ink": "#04061a", "paper": "#e9ecff", "accent": "#ffb347", "accent2": "#6aa6ff"},
+      "type": {"id": "editorial-serif", "display": "Frank Ruhl Libre", "weight": 900, "body": "Frank Ruhl Libre", "case": "none", "tracking": "-0.01em"},
+      "captions": "typewriter", "transition": "iris", "sound": "airy-drone", "grain": 0.12, "vignette": 0.5,
+      "affinity": ["vision", "future", "big", "universe", "meaning", "why", "philosophy", "חזון", "עתיד", "יקום", "משמעות", "למה"],
+      "setting": "an old observatory at night: brass telescope, star charts, a slit of sky in the dome",
+      "props": ["a brass telescope", "a star chart under a lamp", "an orrery of tiny brass planets", "a ladder under the dome slit", "a glass globe"],
+      "motif": "a single amber point of light that moves from scene to scene",
+      "plate_style": "photoreal cinematic render, brass instruments and dark glass, deep navy night with a warm amber lamp pool, volumetric dust, shallow depth of field, subtle stars"
+    },
+    {
+      "id": "locker-room", "name": "Locker room", "family": "sports", "material": "rubber and leather", "light": "flat-fluorescent", "hue": 95,
+      "palette": {"bg": "#243b2a", "ink": "#0a140c", "paper": "#f1f0e6", "accent": "#e0ff3d", "accent2": "#ff6b2b"},
+      "type": {"id": "condensed-poster", "display": "Karantina", "weight": 700, "body": "Heebo", "case": "none", "tracking": "0.01em"},
+      "captions": "bounce", "transition": "whip-pan", "sound": "deep-sub", "grain": 0.1, "vignette": 0.3,
+      "affinity": ["discipline", "training", "habit", "goal", "win", "competition", "performance", "משמעת", "אימון", "מטרה", "ניצחון", "ביצועים"],
+      "setting": "a gritty locker room: steel lockers, benches, taped hands, a whiteboard of plays",
+      "props": ["a whiteboard with plays", "boxing tape and hands", "a stopwatch", "a stack of towels", "a scoreboard"],
+      "motif": "a stopwatch that stops on the key number",
+      "plate_style": "photoreal gritty photograph, steel lockers and worn leather, harsh fluorescent light, desaturated green with a neon yellow-green accent, shallow depth of field, strong grain"
+    },
+    {
+      "id": "vault-office", "name": "Vault office", "family": "bank-office", "material": "steel and leather", "light": "lamp-pool", "hue": 160,
+      "palette": {"bg": "#0f2b25", "ink": "#06130f", "paper": "#f3ecda", "accent": "#e1b24a", "accent2": "#c4452f"},
+      "type": {"id": "classic-hebrew", "display": "David Libre", "weight": 700, "body": "David Libre", "case": "none", "tracking": "0em"},
+      "captions": "underline-sweep", "transition": "dip-flash", "sound": "tense-pulse", "grain": 0.1, "vignette": 0.45,
+      "affinity": ["money", "price", "profit", "invest", "pay", "cost", "sales", "כסף", "מחיר", "רווח", "השקעה", "מכירות", "עלות"],
+      "setting": "an old bank office: green banker's lamp, a steel vault door, leather ledgers, brass scales",
+      "props": ["a steel vault door", "a leather ledger with numbers", "brass scales", "a stack of coins in macro", "a rubber stamp pad"],
+      "motif": "a brass scale that tips as the argument shifts",
+      "plate_style": "photoreal cinematic render, polished steel and aged leather, green banker's lamp pool, deep emerald and brass, shallow depth of field, soft haze"
+    },
+    {
+      "id": "gate-b12", "name": "Gate B12", "family": "airport", "material": "plastic and glass", "light": "overcast-soft", "hue": 210,
+      "palette": {"bg": "#d9e1e8", "ink": "#122033", "paper": "#ffffff", "accent": "#ffcc00", "accent2": "#1b5cff"},
+      "type": {"id": "news-bold", "display": "Assistant", "weight": 800, "body": "Assistant", "case": "none", "tracking": "-0.01em"},
+      "captions": "box-highlight", "transition": "slide-wipe", "sound": "minimal-clicks", "grain": 0.05, "vignette": 0.12,
+      "affinity": ["travel", "move", "change", "new", "launch", "update", "news", "טיסה", "שינוי", "חדש", "עדכון", "השקה"],
+      "setting": "a pale airport gate at dawn: departure boards, glass walls, blue seats, runway light",
+      "props": ["a departure board", "a boarding pass", "a suitcase on a conveyor", "a glass wall with runway beyond", "a passport on a seat"],
+      "motif": "a departure board that rewrites its rows with the beat's information",
+      "plate_style": "photoreal architectural photograph, airport interior with glass and pale plastic, soft overcast daylight, cool grey-blue with a signal yellow accent, wide lens, shallow depth of field"
+    },
+    {
+      "id": "ladder-library", "name": "Ladder library", "family": "library", "material": "oak and paper", "light": "golden-window", "hue": 38,
+      "palette": {"bg": "#4a2e17", "ink": "#1b1008", "paper": "#f4e9d2", "accent": "#b3261e", "accent2": "#e3b25a"},
+      "type": {"id": "editorial-serif", "display": "Frank Ruhl Libre", "weight": 900, "body": "Frank Ruhl Libre", "case": "none", "tracking": "-0.01em"},
+      "captions": "karaoke-fill", "transition": "paper-turn", "sound": "music-box", "grain": 0.13, "vignette": 0.4,
+      "affinity": ["learn", "history", "knowledge", "book", "guide", "course", "explain", "ללמוד", "היסטוריה", "ידע", "ספר", "מדריך", "קורס"],
+      "setting": "a tall oak library with a rolling ladder, dusty sunbeams, leather spines and reading lamps",
+      "props": ["a rolling ladder", "an open book with a highlighted line", "a card catalogue drawer", "a globe", "a stack of leather books"],
+      "motif": "a book that opens to the exact page of each beat",
+      "plate_style": "photoreal cinematic render, oak shelves and leather spines, dusty golden sunbeams through tall windows, warm brown and burgundy, shallow depth of field"
+    },
+    {
+      "id": "safelight-darkroom", "name": "Safelight darkroom", "family": "photo-lab", "material": "wax and photographic paper", "light": "safelight-red", "hue": 355,
+      "palette": {"bg": "#2a0709", "ink": "#100304", "paper": "#f2e6dc", "accent": "#ff3b30", "accent2": "#f5d9a8"},
+      "type": {"id": "classic-hebrew", "display": "David Libre", "weight": 700, "body": "David Libre", "case": "none", "tracking": "0em"},
+      "captions": "typewriter", "transition": "shutter", "sound": "soft-lofi", "grain": 0.2, "vignette": 0.55,
+      "affinity": ["memory", "photo", "before", "after", "reveal", "develop", "family", "זיכרון", "תמונה", "לפני", "אחרי", "חשיפה", "משפחה"],
+      "setting": "a darkroom under red safelight: trays of chemicals, prints hanging on a line, an enlarger casting a beam",
+      "props": ["a print appearing in a tray", "prints pegged on a line", "an enlarger", "a contact sheet with a circled frame", "a stopwatch timer"],
+      "motif": "an image that slowly develops in a tray to reveal each beat",
+      "plate_style": "photoreal cinematic render, deep red safelight, wet photographic paper and glass trays, near-monochrome crimson with warm highlights, shallow depth of field, heavy film grain"
+    },
+    {
+      "id": "souk-spice", "name": "Spice souk", "family": "market", "material": "linen and brass", "light": "golden-window", "hue": 28,
+      "palette": {"bg": "#8a4b1d", "ink": "#2a1608", "paper": "#f5e7cc", "accent": "#d63a1f", "accent2": "#e8a317"},
+      "type": {"id": "hand-marker", "display": "Amatic SC", "weight": 700, "body": "Heebo", "case": "none", "tracking": "0.02em"},
+      "captions": "bounce", "transition": "whip-pan", "sound": "warm-pad", "grain": 0.12, "vignette": 0.3,
+      "affinity": ["local", "israel", "community", "customer", "choice", "compare", "market", "שוק", "ישראל", "קהילה", "לקוחות", "בחירה"],
+      "setting": "a sunlit spice market: hessian sacks, brass scales, hand-lettered price tags, striped awnings",
+      "props": ["sacks of spices in colour", "a brass scale with a chalk price", "hand-lettered cardboard signs", "strings of dried peppers", "a stall counter with coins"],
+      "motif": "a hand-lettered price tag that changes with the point being made",
+      "plate_style": "photoreal documentary photograph, hessian and brass and heaps of spice, warm golden light through striped awnings, saturated reds and ochres, shallow depth of field, slight film grain"
+    },
+    {
+      "id": "greenhouse-dawn", "name": "Greenhouse dawn", "family": "greenhouse", "material": "glass and leaf", "light": "dawn-blue", "hue": 140,
+      "palette": {"bg": "#173a2b", "ink": "#08170f", "paper": "#f1f6e8", "accent": "#ff8a4c", "accent2": "#b6e36b"},
+      "type": {"id": "round-friendly", "display": "Rubik", "weight": 800, "body": "Rubik", "case": "none", "tracking": "-0.01em"},
+      "captions": "underline-sweep", "transition": "blur-dissolve", "sound": "airy-drone", "grain": 0.07, "vignette": 0.25,
+      "affinity": ["start", "begin", "seed", "idea", "grow", "new", "launch", "startup", "התחלה", "רעיון", "זרע", "סטארטאפ"],
+      "setting": "a glass greenhouse at dawn: dewy leaves, steel frames, rows of seedlings in clay pots",
+      "props": ["seedlings in clay pots", "a watering can", "dew on a leaf in macro", "a glass roof with light beams", "a label stake in soil"],
+      "motif": "one seedling that is taller in each scene",
+      "plate_style": "photoreal macro and wide photograph, glass greenhouse, cool dawn light with warm orange rim, dew and condensation, deep green with an orange accent, shallow depth of field"
+    },
+    {
+      "id": "projector-beam", "name": "Projector beam", "family": "cinema", "material": "film and smoke", "light": "projector-beam", "hue": 48,
+      "palette": {"bg": "#0e0e10", "ink": "#050506", "paper": "#f4f1e8", "accent": "#ffd23a", "accent2": "#ff4d3a"},
+      "type": {"id": "condensed-poster", "display": "Karantina", "weight": 700, "body": "Heebo", "case": "none", "tracking": "0.01em"},
+      "captions": "word-pop", "transition": "shutter", "sound": "music-box", "grain": 0.18, "vignette": 0.6,
+      "affinity": ["video", "film", "content", "camera", "creator", "edit", "storytelling", "סרט", "וידאו", "יוצר", "תוכן", "עריכה"],
+      "setting": "a smoky private cinema: a projector beam cutting the dark, film reels, empty velvet seats",
+      "props": ["a projector beam with dust", "film reels and strips", "empty red seats", "a clapperboard", "a screen showing a single frame"],
+      "motif": "a film strip whose frames fill in with the beats",
+      "plate_style": "photoreal cinematic render, volumetric projector beam through smoke, black room with warm yellow light, film strips and reels, shallow depth of field, heavy grain"
+    },
+    {
+      "id": "garage-rig", "name": "Garage rig", "family": "garage", "material": "steel and rubber", "light": "sodium-street", "hue": 30,
+      "palette": {"bg": "#2b2118", "ink": "#0e0a06", "paper": "#ece3d3", "accent": "#ff7a00", "accent2": "#00c2ff"},
+      "type": {"id": "stencil-slab", "display": "Alef", "weight": 700, "body": "Heebo", "case": "none", "tracking": "0.02em"},
+      "captions": "box-highlight", "transition": "glitch-cut", "sound": "deep-sub", "grain": 0.15, "vignette": 0.4,
+      "affinity": ["build", "diy", "tool", "automation", "code", "workflow", "hack", "בנייה", "כלי", "אוטומציה", "קוד", "תהליך"],
+      "setting": "a night garage workshop: pegboard of tools, a workbench under a sodium lamp, a half-built rig with cables",
+      "props": ["a pegboard of tools", "a workbench with a circuit board", "a coil of cables", "a hand holding a screwdriver", "a labelled parts drawer"],
+      "motif": "a half-built machine that is a little more finished in each scene",
+      "plate_style": "photoreal cinematic render, steel and rubber and worn wood, orange sodium lamp with cool cyan fill, oil sheen, shallow depth of field, grain"
+    },
+    {
+      "id": "ice-station", "name": "Ice station", "family": "polar", "material": "ice and steel", "light": "overcast-soft", "hue": 200,
+      "palette": {"bg": "#cfe4ee", "ink": "#0c2230", "paper": "#ffffff", "accent": "#ff4f2e", "accent2": "#2b6cb0"},
+      "type": {"id": "elegant-display", "display": "Bellefair", "weight": 400, "body": "Heebo", "case": "none", "tracking": "0.01em"},
+      "captions": "typewriter", "transition": "soft-push", "sound": "airy-drone", "grain": 0.06, "vignette": 0.15,
+      "affinity": ["calm", "focus", "clarity", "minimal", "less", "clean", "pause", "שקט", "מיקוד", "בהירות", "מינימליזם", "פחות"],
+      "setting": "a polar research station: blue ice walls, orange survival gear, steel instruments, endless white beyond the window",
+      "props": ["an ice wall with an orange flag", "a steel instrument case", "a frozen window", "a single orange jacket on a hook", "a thermometer"],
+      "motif": "one orange object in a field of blue-white",
+      "plate_style": "photoreal photograph, translucent blue ice and brushed steel, soft overcast polar light, blue-white palette with one orange accent, minimal composition, shallow depth of field"
+    },
+    {
+      "id": "chalk-classroom", "name": "Chalk classroom", "family": "school", "material": "slate and wood", "light": "flat-fluorescent", "hue": 170,
+      "palette": {"bg": "#1f3b36", "ink": "#0a1613", "paper": "#f0f4ee", "accent": "#ffd84a", "accent2": "#ff7a6b"},
+      "type": {"id": "hand-marker", "display": "Amatic SC", "weight": 700, "body": "Heebo", "case": "none", "tracking": "0.02em"},
+      "captions": "underline-sweep", "transition": "slide-wipe", "sound": "music-box", "grain": 0.1, "vignette": 0.3,
+      "affinity": ["teach", "lesson", "student", "tips", "steps", "how", "rules", "לימוד", "שיעור", "תלמיד", "טיפים", "שלבים", "כללים"],
+      "setting": "an empty classroom: slate blackboard with chalk diagrams, wooden desks, a map pulled down, afternoon fluorescents",
+      "props": ["a chalk diagram on slate", "a wooden desk with a ruler", "a pull-down map", "a chalk-dusted eraser", "a stack of exercise books"],
+      "motif": "chalk that draws each diagram live",
+      "plate_style": "photoreal photograph, green-black slate with real chalk dust, worn wooden desks, flat fluorescent light with warm window spill, teal and chalk white with a yellow accent, shallow depth of field"
+    },
+    {
+      "id": "plaster-showroom", "name": "Plaster showroom", "family": "showroom", "material": "plaster and ceramic", "light": "softbox-clean", "hue": 350,
+      "palette": {"bg": "#f0d9d4", "ink": "#3a1f22", "paper": "#fff7f2", "accent": "#c2185b", "accent2": "#3d5a80"},
+      "type": {"id": "chunky-soft", "display": "Secular One", "weight": 400, "body": "Heebo", "case": "none", "tracking": "-0.01em"},
+      "captions": "box-highlight", "transition": "blur-dissolve", "sound": "bright-arp", "grain": 0.05, "vignette": 0.12,
+      "affinity": ["brand", "design", "style", "product", "launch", "look", "identity", "מותג", "עיצוב", "מוצר", "השקה", "סגנון"],
+      "setting": "a pastel plaster showroom: curved walls, ceramic objects on steps, soft even daylight",
+      "props": ["ceramic objects on pastel steps", "a plaster arch", "a product on a pedestal", "a swatch fan of colours", "a mirror reflecting the set"],
+      "motif": "a single product that changes colour with each beat's idea",
+      "plate_style": "photoreal product photograph, matte plaster and glazed ceramic, clean softbox daylight, dusty pink and blue-grey, minimal composition, medium-format look"
+    },
+    {
+      "id": "oak-courtroom", "name": "Oak courtroom", "family": "courtroom", "material": "oak and leather", "light": "lamp-pool", "hue": 25,
+      "palette": {"bg": "#3b2414", "ink": "#150d07", "paper": "#f1e6d0", "accent": "#a31d1d", "accent2": "#d9b36a"},
+      "type": {"id": "editorial-serif", "display": "Frank Ruhl Libre", "weight": 900, "body": "Frank Ruhl Libre", "case": "none", "tracking": "-0.01em"},
+      "captions": "underline-sweep", "transition": "dip-flash", "sound": "tense-pulse", "grain": 0.12, "vignette": 0.45,
+      "affinity": ["truth", "myth", "debate", "claim", "proof", "fact", "opinion", "אמת", "מיתוס", "ויכוח", "הוכחה", "עובדה", "דעה"],
+      "setting": "an oak-panelled courtroom: raised bench, brass lamps, evidence tags, gavel and files",
+      "props": ["a gavel on oak", "evidence tags on objects", "a file with a red seal", "a witness stand", "brass scales"],
+      "motif": "an evidence tag attached to each claim, stamped TRUE or FALSE",
+      "plate_style": "photoreal cinematic render, oak panelling and aged leather, brass lamps with deep shadow, burgundy and brown, shallow depth of field, soft haze"
+    },
+    {
+      "id": "teletext-newsroom", "name": "Teletext newsroom", "family": "newsroom", "material": "crt glass and plastic", "light": "flat-fluorescent", "hue": 0,
+      "palette": {"bg": "#10161f", "ink": "#06090d", "paper": "#f2f4f7", "accent": "#ff2e2e", "accent2": "#00d1ff"},
+      "type": {"id": "news-bold", "display": "Assistant", "weight": 800, "body": "Assistant", "case": "none", "tracking": "-0.01em"},
+      "captions": "box-highlight", "transition": "glitch-cut", "sound": "tense-pulse", "grain": 0.14, "vignette": 0.35,
+      "affinity": ["breaking", "news", "update", "alert", "just", "announce", "release", "חדשות", "מבזק", "עדכון", "הודעה", "יצא"],
+      "setting": "a late-night newsroom wall of CRT monitors, desks of papers, a wall clock, glowing red ON AIR light",
+      "props": ["a wall of CRT monitors", "a desk with a phone and papers", "a red ON AIR light", "a ticker on a screen", "a wire machine printing"],
+      "motif": "a monitor that shows the breaking line of each beat",
+      "plate_style": "photoreal cinematic render, wall of CRT monitors in a dim newsroom, cold blue fluorescent with red signal light, shallow depth of field, scanline glow, grain"
+    },
+    {
+      "id": "desert-camp", "name": "Desert camp", "family": "outdoor", "material": "canvas and dust", "light": "golden-window", "hue": 40,
+      "palette": {"bg": "#c78c4f", "ink": "#3a2410", "paper": "#f8ecd2", "accent": "#1f5f8b", "accent2": "#e4572e"},
+      "type": {"id": "stencil-slab", "display": "Alef", "weight": 700, "body": "Heebo", "case": "none", "tracking": "0.02em"},
+      "captions": "word-pop", "transition": "soft-push", "sound": "warm-pad", "grain": 0.12, "vignette": 0.3,
+      "affinity": ["journey", "challenge", "survive", "resilience", "adventure", "road", "hard", "מסע", "אתגר", "חוסן", "הרפתקה", "דרך"],
+      "setting": "a desert camp at golden hour: canvas tents, enamel mugs, a map weighed down by stones, long shadows",
+      "props": ["a canvas tent", "an enamel mug on a stone", "a map pinned by stones", "a compass in a palm", "a rope coil"],
+      "motif": "a compass needle that points at each beat's answer",
+      "plate_style": "photoreal documentary photograph, canvas and desert dust, low golden sun with long shadows, ochre and sky blue, shallow depth of field, slight grain"
+    },
+    {
+      "id": "sand-beach-house", "name": "Sand beach house", "family": "coast", "material": "driftwood and linen", "light": "dawn-blue", "hue": 185,
+      "palette": {"bg": "#d8cdb6", "ink": "#23333a", "paper": "#fbf7ee", "accent": "#e2634a", "accent2": "#2f7f86"},
+      "type": {"id": "round-friendly", "display": "Varela Round", "weight": 400, "body": "Heebo", "case": "none", "tracking": "0em"},
+      "captions": "bounce", "transition": "blur-dissolve", "sound": "soft-lofi", "grain": 0.08, "vignette": 0.2,
+      "affinity": ["freedom", "freelance", "remote", "balance", "life", "lifestyle", "independence", "חופש", "פרילנס", "איזון", "עצמאות", "חיים"],
+      "setting": "a bright beach house: driftwood table, linen curtains moving, sea light on white walls",
+      "props": ["a laptop on a driftwood table", "a linen curtain in wind", "shells in a bowl", "a hammock", "a window onto the sea"],
+      "motif": "a window onto the sea that gets brighter as things improve",
+      "plate_style": "photoreal lifestyle photograph, driftwood and white linen, cool morning sea light with warm skin tones, sand and teal with a coral accent, airy composition, shallow depth of field"
+    }
+  ],
+  "axes": {
+    "light": ["golden-window", "noir-spot", "flat-fluorescent", "neon-rim", "overcast-soft", "candle-warm", "softbox-clean", "dawn-blue", "sodium-street", "lamp-pool", "safelight-red", "projector-beam"],
+    "type": {
+      "chunky-soft": {"display": "Secular One", "weight": 400, "body": "Heebo"},
+      "heavy-sans": {"display": "Heebo", "weight": 900, "body": "Heebo"},
+      "condensed-poster": {"display": "Karantina", "weight": 700, "body": "Heebo"},
+      "editorial-serif": {"display": "Frank Ruhl Libre", "weight": 900, "body": "Frank Ruhl Libre"},
+      "round-friendly": {"display": "Rubik", "weight": 800, "body": "Rubik"},
+      "hand-marker": {"display": "Amatic SC", "weight": 700, "body": "Heebo"},
+      "stencil-slab": {"display": "Alef", "weight": 700, "body": "Heebo"},
+      "elegant-display": {"display": "Bellefair", "weight": 400, "body": "Heebo"},
+      "news-bold": {"display": "Assistant", "weight": 800, "body": "Assistant"},
+      "classic-hebrew": {"display": "David Libre", "weight": 700, "body": "David Libre"}
+    },
+    "transition": ["soft-push", "whip-pan", "iris", "slide-wipe", "dip-flash", "zoom-through", "paper-turn", "blur-dissolve", "shutter", "glitch-cut"],
+    "captions": ["word-pop", "karaoke-fill", "typewriter", "underline-sweep", "box-highlight", "bounce"],
+    "sound": ["warm-pad", "tense-pulse", "airy-drone", "soft-lofi", "minimal-clicks", "bright-arp", "deep-sub", "music-box"]
+  }
+}

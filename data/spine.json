@@ -1,0 +1,16 @@
+{
+  "_doc": "The spine: what stays the SAME in every video so a channel feels like one studio. Everything else (the world) changes every time.",
+  "canvas": {"width": 1080, "height": 1920, "fps": 30},
+  "presenter": {
+    "zone": "bottom third of the frame when visible, waist-up, never covered by graphics on the face",
+    "visibility": "present for the hook and for the personal moments, absent for stretches where the world carries the beat; always back for the close",
+    "face_keep_clear": true
+  },
+  "pacing": {"scene_min_s": 1.2, "scene_max_s": 4.5, "target_avg_s": 2.7, "hook_max_s": 2.5},
+  "realism": "Every plate reads as photographed or physically-lit 3D: real materials, real light, shallow depth of field, tactile detail. One consistent world per video.",
+  "forbidden_styles": ["anime", "manga", "cartoon", "pixar", "disney", "cel-shaded", "cel shaded", "chibi", "clip art", "clipart", "flat vector", "vector illustration", "comic book", "3d cartoon", "stock photo handshake"],
+  "type": "Big Hebrew kinetic type, one idea per screen, set INSIDE the world whenever possible (on a sign, a stamp, a chart, a label) and as a clean overlay when not. Max 4 words per headline. Accent colour on the one word that matters.",
+  "captions": "Small, always readable, max 3 words at a time, word timing from the real voice. Sit above the presenter or at the lower third, never over the face.",
+  "audio": {"target_lufs": -14.0, "true_peak_db": -1.0, "voice_forward": true},
+  "cover": "Every video ships with covers. The first frame of the video is already the cover: the hook is on screen at t=0."
+}

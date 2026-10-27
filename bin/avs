@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Avatar Studio command line. Works the same from Claude Code, Codex or any terminal.
+SELF="${BASH_SOURCE[0]}"
+while [ -L "$SELF" ]; do D="$(cd -P "$(dirname "$SELF")" && pwd)"; SELF="$(readlink "$SELF")"; [[ "$SELF" != /* ]] && SELF="$D/$SELF"; done
+ROOT="$(cd -P "$(dirname "$SELF")/.." && pwd)"
+PY="${AVS_PYTHON:-}"
+if [ -z "$PY" ]; then for c in python3 python; do command -v "$c" >/dev/null 2>&1 && PY="$c" && break; done; fi
+[ -z "$PY" ] && { echo "[!!] Python 3.9+ is required" >&2; exit 1; }
+export PYTHONPATH="$ROOT/lib${PYTHONPATH:+:$PYTHONPATH}" PYTHONIOENCODING=utf-8
+exec "$PY" -m avs.cli "$@"

@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "title": "למה אווטאר נראה מזויף"
+  },
+  "captions": {
+    "size": 62
+  },
+  "cover": {
+    "headline": "אווטאר *אמיתי*",
+    "sub": "זה לא הטכנולוגיה",
+    "variant": "hero",
+    "avatar_time": 0.8
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": "w:4.start",
+      "plate": {
+        "prompt": "A weathered workshop table seen from slightly above, a single lifelike head sculpture under a work lamp, dust in the light",
+        "move": "push-in"
+      },
+      "avatar": {
+        "show": true
+      },
+      "layers": [
+        {
+          "type": "headline",
+          "text": "רוב האווטארים *מזויפים*",
+          "style": "slab",
+          "pos": [
+            0.5,
+            0.2
+          ],
+          "size": 150,
+          "at": 0.15,
+          "anim": "slam"
+        },
+        {
+          "type": "badge",
+          "text": "בדוק",
+          "pos": [
+            0.84,
+            0.32
+          ],
+          "at": "w:3.start"
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "start": "w:4.start",
+      "end": "w:8.start",
+      "plate": {
+        "prompt": "Close macro of a plastic mannequin face next to a real clay face, same lighting, tactile surfaces",
+        "move": "pan-left"
+      },
+      "transition": "whip-pan",
+      "avatar": {
+        "show": true
+      },
+      "layers": [
+        {
+          "type": "headline",
+          "text": "לא הטכנולוגיה",
+          "style": "outline",
+          "pos": [
+            0.5,
+            0.2
+          ],
+          "size": 160,
+          "at": "w:5.start",
+          "anim": "pop-words"
+        },
+        {
+          "type": "underline",
+          "rect": [
+            0.12,
+            0.27,
+            0.76,
+            0.02
+          ],
+          "at": "w:6.start",
+          "color": "accent"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "start": "w:8.start",
+      "end": "w:13.end",
+      "plate": {
+        "stage": {
+          "camera": {
+            "move": "dolly-in",
+            "amount": 1.1
+          },
+          "layers": [
+            {
+              "prompt": "The far wall of a tiny handmade diorama room, warm practical light",
+              "z": -900,
+              "w": 1.5,
+              "cutout": false,
+              "blur": 3
+            },
+            {
+              "prompt": "A miniature armchair with a knitted blanket",
+              "z": -450,
+              "x": -0.22,
+              "y": 0.1,
+              "w": 0.5,
+              "anchor": "bottom",
+              "top": 0.72
+            },
+            {
+              "prompt": "A small glowing lamp on a stool",
+              "z": -150,
+              "x": 0.25,
+              "y": -0.05,
+              "w": 0.42,
+              "anchor": "bottom",
+              "top": 0.72,
+              "float": 6
+            },
+            {
+              "prompt": "Out-of-focus plant leaves close to the lens",
+              "z": 260,
+              "x": -0.3,
+              "y": 0.2,
+              "w": 0.7,
+              "anchor": "bottom",
+              "top": 1.0,
+              "blur": 2
+            }
+          ]
+        }
+      },
+      "transition": "iris",
+      "avatar": {
+        "show": false
+      },
+      "layers": [
+        {
+          "type": "headline",
+          "text": "בנו להם *עולם*",
+          "style": "highlight",
+          "pos": [
+            0.5,
+            0.42
+          ],
+          "size": 180,
+          "at": "word:בנה",
+          "anim": "rise"
+        },
+        {
+          "type": "counter",
+          "from": 0,
+          "to": 3,
+          "label": "חומר, אור, תנועה",
+          "pos": [
+            0.5,
+            0.64
+          ],
+          "size": 220,
+          "at": "word:עולם#1+0.2",
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "start": "w:14.start",
+      "end": "w:19.start",
+      "plate": {
+        "prompt": "The same workshop at golden hour, the head sculpture now looks alive, a hand adjusting the lamp, warm light spilling",
+        "move": "pull-out"
+      },
+      "transition": "dip-flash",
+      "avatar": {
+        "show": true
+      },
+      "layers": [
+        {
+          "type": "headline",
+          "text": "אותו שולחן, *אור אחר*",
+          "style": "plain",
+          "pos": [
+            0.5,
+            0.2
+          ],
+          "size": 150,
+          "at": "w:16.start",
+          "anim": "pop-words"
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "start": "w:19.start",
+      "end": "end",
+      "plate": {
+        "prompt": "Macro of the sculpture's eye catching warm lamp light, a faint reflection of the workshop in it",
+        "move": "push-in"
+      },
+      "transition": "soft-push",
+      "avatar": {
+        "show": true
+      },
+      "layers": [
+        {
+          "type": "headline",
+          "text": "וזה *נראה אמיתי*",
+          "style": "plain",
+          "pos": [
+            0.5,
+            0.2
+          ],
+          "size": 150,
+          "at": "w:19.start",
+          "anim": "pop-words"
+        },
+        {
+          "type": "stamp",
+          "text": "אמיתי",
+          "pos": [
+            0.5,
+            0.36
+          ],
+          "size": 120,
+          "at": "w:22.start",
+          "rot": -8
+        }
+      ]
+    }
+  ]
+}

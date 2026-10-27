@@ -1,0 +1,8 @@
+{
+  "name": "avatar-studio",
+  "version": "1.0.0",
+  "description": "Studio-grade vertical videos with a digital presenter: Hebrew-first kinetic type, photoreal worlds, Cartesia narration (ElevenLabs as backup), automatic cover photos, and an engine that makes every video look different.",
+  "author": { "name": "Avatar Studio contributors" },
+  "license": "MIT",
+  "keywords": ["video", "avatar", "reels", "shorts", "cartesia", "elevenlabs", "heygen", "hebrew", "rtl", "captions", "covers"]
+}

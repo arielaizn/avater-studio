@@ -1,0 +1,12 @@
+{
+  "name": "avatar-studio",
+  "interface": { "displayName": "Avatar Studio" },
+  "plugins": [
+    {
+      "name": "avatar-studio",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Creative"
+    }
+  ]
+}

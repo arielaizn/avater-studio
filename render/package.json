@@ -1,0 +1,10 @@
+{
+  "name": "avatar-studio-render",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Headless frame renderer for Avatar Studio compositions",
+  "dependencies": {
+    "playwright": "^1.50.0"
+  }
+}

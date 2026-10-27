@@ -1,0 +1,13 @@
+{
+  "name": "avatar-studio",
+  "owner": { "name": "Avatar Studio contributors" },
+  "metadata": { "description": "Avatar video studio for Claude Code" },
+  "plugins": [
+    {
+      "name": "avatar-studio",
+      "source": "./",
+      "description": "Studio-grade vertical videos with a digital presenter. Cartesia narration by default, ElevenLabs as backup, cover photos for every video, a different world every time.",
+      "category": "media"
+    }
+  ]
+}

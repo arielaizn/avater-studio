@@ -1,0 +1,18 @@
+{
+  "name": "avatar-studio",
+  "version": "1.0.0",
+  "description": "Studio-grade vertical videos with a digital presenter: Hebrew-first kinetic type, photoreal worlds, Cartesia narration (ElevenLabs as backup), automatic cover photos, and an engine that makes every video look different.",
+  "author": { "name": "Avatar Studio contributors" },
+  "license": "MIT",
+  "keywords": ["video", "avatar", "reels", "cartesia", "elevenlabs", "hebrew", "covers"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Avatar Studio",
+    "shortDescription": "Unique, studio-grade vertical videos with a digital presenter",
+    "longDescription": "Plan, voice, design, render and cover vertical videos with a digital avatar. Cartesia is the default narrator, ElevenLabs the automatic backup. Every video gets its own world, and cover photos come by default.",
+    "developerName": "Avatar Studio contributors",
+    "category": "Creative",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": ["Make a 45 second reel about this topic with my digital avatar"]
+  }
+}
